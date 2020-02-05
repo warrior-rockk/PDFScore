@@ -1,0 +1,12 @@
+Regular 3,3V -> L78L33 (entrada de 3 a 12VDC - Salida 3,3V 100mA) (Condensadores opcionales 0,33uf y 0,1uf)
+				MCP1702 (parece mas adecuado!)
+				
+Probar conexion Serie Bluetooth: -conectamos el movil con el PC (con bluetooth que soporte comunicacion serie SSP). Con el programa Tera term y abriendo el puerto serie correspondiente del bluetooth, recibiremos en la consola lo que se envíe de android y podemos enviar nosotros a android. Para poder enviar correctamente, configurar en las opciones del terminal de Tera term que envíe el CRLF y local echo para ver lo que ponemos.
+
+
+ANDROID:
+
+Exploradores de archivos:
+=======================
+http://www.christophbrill.de/de_DE/how-to-create-a-android-file-browser-in-15-minutes/
+http://custom-android-dn.blogspot.com.es/2013/01/create-simple-file-explore-in-android.html

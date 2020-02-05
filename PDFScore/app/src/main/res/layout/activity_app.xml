@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent"  tools:context=".AppActivity">
+
+
+
+    <LinearLayout android:id="@+id/pdf_selection_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="0dp" android:visibility="invisible" >
+
+        <ListView android:id="@+id/pdfList" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/connectBT_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="0dp" android:visibility="invisible" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar Dispositivos"
+            android:id="@+id/btFind"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFF"
+            android:layout_marginTop="6dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista de dispositivos emparejados:"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lstDevices" />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/read_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:keepScreenOn="true" >
+
+        <com.joanzapata.pdfview.PDFView
+            android:id="@+id/pdfViewer"
+            android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:background="@android:color/white" android:scaleType="fitCenter"/>
+        <LinearLayout style="?android:attr/buttonBarStyle" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" android:orientation="horizontal" >
+
+            <Button android:id="@+id/previous" style="?android:attr/buttonBarButtonStyle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Anterior" />
+            <TextView android:id="@+id/txtStatus"  android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+            <Button android:id="@+id/next" style="?android:attr/buttonBarButtonStyle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Siguiente" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

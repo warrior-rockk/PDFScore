@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_connect"   android:title="Conectar BT"/>
+    <item android:id="@+id/action_disconnect" android:title="Desconectar BT"/>
+    <item android:id="@+id/action_openPDF"   android:title="Abrir PDF"/>
+    <item android:id="@+id/action_about"   android:title="Acerca de..."/>
+    <item android:id="@+id/action_close"   android:title="Salir"/>
+
+</menu>

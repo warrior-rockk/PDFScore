@@ -1,0 +1,7 @@
+-Modulo inalambrico HC-06:  3,95
+-Attiny85:					2,29
+-Bateria Li-ion 3,7V:		1,00
+-Modulo carga litio:     	1,00
+-Zocalo 8 pins:				0,109
+
+TOTAL:         				8,349€

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\Programacion\PDFScore\PDFScore\app\libs\android-pdfview-1.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5267ed2298247e29f4b112f871ab2f5fde208995">
+        <dex dex="F:\Programacion\PDFScore\PDFScore\app\build\intermediates\pre-dexed\debug\android-pdfview-1.0.4_d47220c0d5ffd713dcf9a2d2de5dea5001035fbd.jar" />
+    </item>
+
+</items>
